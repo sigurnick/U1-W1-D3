@@ -1,8 +1,7 @@
+
+/*  *Blocchi semnantici* */
 header {
     margin: 1em;
-}
-
-header {
     display: flex;
     justify-content: center;
 }
@@ -13,66 +12,42 @@ main, footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
-   
+    align-items: flex-start; 
 }
 
+
+
+
+
 hr {
-    height: 0.8px;
+    height: 0.5px;
     background-color: rgb(86, 255, 255);
     border: none;
 }
 
-h1, h2 {
-    margin-top: 1em;
-}
-
 h1{
+    margin-top: 1em;
     font-size: 2.8em;
     text-align: center;
+}
+
+h2{
+    margin-top: 1em;
+    font-weight: 500;
+    font-size: 1.7em;
 }
 
 li{
     margin-bottom: 0.8em;
 }
 
-#top-article{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center; 
-}
-
-/* -----Photo e info----- */
-#food-photo{
-    width: 100%;
-    border-radius: 2%;
-}
-#info-photo{
-    color: rgba(128, 128, 128, 0.668);
-}
-
-/* --------Fetured block-------- */
-#fetured-block {
-    align-items: flex-start;
-    border-left: 0.1em solid;
-    border-color: rgb(248, 237, 85);
-    margin-bottom: 3em;
-}
-
-#fetured-block>p {
-    color: rgb(202, 52, 52);
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 1em;
-}
-
-#fetured-block a {
-    margin-left: 1em;
+a {
     color: rgb(3, 130, 100);
+    
 }
 
-/* --------Intestazione con barra colorata------ */
+
+/* ------------Intestazione con barra colorata-------- */
 #colored-bar>p {
     display: inline;
 }
@@ -90,6 +65,54 @@ li{
 
     display: flex;
     justify-content: center;
+}
+
+
+/* --------Parte superiore articolo---------- */
+#top-article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+
+/* ---------------Photo e info--------- */
+#food-photo{
+    width: 100%;
+    border-radius: 2%;
+}
+#info-photo{
+    color: rgba(128, 128, 128, 0.668);
+}
+
+/* --------------Fetured block----------- */
+#fetured-block {
+    align-items: flex-start;
+    border-left: 0.1em solid;
+    border-color: rgb(248, 237, 85);
+    margin-bottom: 3em;
+}
+
+#fetured-block>p {
+    color: rgb(202, 52, 52);
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 1em;
+}
+
+#fetured-block a {
+    margin-left: 1em;
+}
+
+
+
+.method span{
+    font-weight: bold;
+}
+
+footer p{
+    display: inline;
 }
 
 
