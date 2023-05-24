@@ -1,0 +1,26 @@
+
+header{
+    margin: 1em;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+/* Intestazione con barra colorata */
+#colored-bar p{
+    display: inline;
+}
+#colored-bar p:last-of-type{
+    font-weight: bold;
+}
+#colored-bar{
+    font-size: 0.7em;
+    padding: 10px;
+    background-color: rgb(253, 251, 241);
+    border-top: 1px solid;
+    border-color: rgb(252, 233, 182);
+    
+    display: flex;
+    justify-content: center;
+}
